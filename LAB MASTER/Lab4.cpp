@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <ctype.h>
 int main() {
     double side1, side2, side3, TriangleArea, tside;
     scanf_s("%lf %lf %lf", &side1, &side2, &side3);
