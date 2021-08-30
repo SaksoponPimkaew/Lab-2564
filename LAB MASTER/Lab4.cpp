@@ -7,7 +7,7 @@ int main() {
         TriangleArea = (sqrt(3) / 4) * (pow(side1, 2));
         printf("This is equilateral triangle and area is %.4lf", TriangleArea);
     }
-    else if (side1 * side2 * side3 > 0) {
+    else if (side1 * side2 * side3 >0) {
         tside = (side1 + side2 + side3) / 2;
         TriangleArea = sqrt(tside * (tside - side1) * (tside - side2) * (tside - side3));
         printf("Triangle and area is %.4lf", TriangleArea);
